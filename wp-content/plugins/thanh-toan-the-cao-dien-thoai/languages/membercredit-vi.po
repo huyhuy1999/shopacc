@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mobile Card Credit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sun Feb 14 2016 16:22:23 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: Sun Feb 14 2016 16:26:41 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: dnbinh <dangngocbinh.dnb@gmail.com>\n"
+"Language-Team: \n"
+"Language: Vietnamese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: vi_VN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: /card-getway.php:11 /card-getway.php:17 /card-getway.php:65
+msgid "Mobile Card"
+msgstr "Thẻ Cào Điện Thoại"
+
+#: /card-getway.php:14
+msgid "pay by credit using Mobile Card"
+msgstr "Thanh toán sử dụng thẻ cào điện thoại"
+
+#: /card-getway.php:56
+msgid "Enable / Disable"
+msgstr "Bật / Tắt"
+
+#: /card-getway.php:57
+msgid "Enable this payment gateway"
+msgstr "Bật cổng thanh toán này"
+
+#: /card-getway.php:62
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: /card-getway.php:64
+msgid "Payment title the customer will see during the checkout process."
+msgstr "Tên cách thanh toán, khách hàng sẽ thấy khi thanh toán"
+
+#: /card-getway.php:68
+msgid "Description for User"
+msgstr "Mô tả cho khách hàng"
+
+#: /card-getway.php:70
+msgid "Payment description the customer will see during the checkout process."
+msgstr "Mô tả thanh toán cho khách hàng khi họ tiến hành thanh toán"
+
+#: /card-getway.php:71
+msgid "Pay by using Mobile Card Number."
+msgstr "Thanh toán bằng thẻ cào điện thoại"
+
+#: /card-getway.php:75
+msgid "Add Credit Link"
+msgstr "Link Trang Nạp Tiền"
+
+#: /card-getway.php:77
+msgid "Link for user to add credit by using mobile card."
+msgstr "Đường link tới trang nạp tiền bằng thẻ cào điện thoại"
+
+#: /card-getway.php:78
+msgid "#"
+msgstr ""
+
+#: /card-getway.php:95
+msgid "Done"
+msgstr "Đã thanh toán"
+
+#: /credit.php:72 /credit.php:105
+msgid "User Credit"
+msgstr "Số Dư"
+
+#: /credit.php:77 /credit.php:89
+msgid "Credit"
+msgstr "Số Dư"
+
+#: /credit.php:243
+msgid "An error occured! Please contact website adminstrator."
+msgstr "Có lỗi! Vui lòng liên hệ quản trị viên website."
+
+#. Name of the plugin
+msgid "Mobile Card Credit"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.idex.vn"
+msgstr ""
+
+#. Description of the plugin
+msgid "Mobile Card Getway for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "IDEX"
+msgstr ""
+
+#. Base ID
+#: /widget.php:11
+msgid "Member Credit"
+msgstr ""
+
+#: /widget.php:12
+msgid "Display user balance & userful link"
+msgstr ""
+
+#: /widget.php:41
+msgid "Please login"
+msgstr "Đăng nhập"
+
+#: /widget.php:48
+msgid "Credit Balance:"
+msgstr "Số dư:"
+
+#: /widget.php:49
+#, php-format
+msgid "<a href=\"%s\">Add Credit</a> | <a href=\"%s\">Account Detail</a>"
+msgstr "<a href=\"%s\">Nạp Tiền</a> | <a href=\"%s\">Tài Khoản</a>"
+
+#: /widget.php:62
+msgid "Account Info"
+msgstr "Thông Tin Tài Khoản"
+
+#: /widget.php:65
+msgid "Title:"
+msgstr "Tiêu đề:"

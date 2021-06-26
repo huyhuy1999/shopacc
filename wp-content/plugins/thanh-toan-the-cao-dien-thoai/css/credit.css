@@ -1,0 +1,183 @@
+.error-message{
+	border: 1px dashed red;
+	padding: 10px 10px;
+}
+
+.account-info{
+background: #dd3333;
+color: #fff;
+padding: 5px 10px;
+border-radius: 6px;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../image/loading.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+
+#form_nap_the input[type=number]::-webkit-inner-spin-button, 
+#form_nap_the input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+ input[type="submit"]:disabled {
+    background: #ccc !important;
+}
+
+#form_nap_the{padding: 8px 10px;font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;background: #223355;border-radius: 6px 6px;color: #BBBBBB;max-width: 350px;margin: 0 auto;margin-bottom: 25px;}
+#choose_method {
+    background: #fff;
+    float: left;
+box-sizing: border-box;
+display: block;
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+#choose_method img{
+width: 80%;
+margin: 0 auto;
+display: block;
+}
+
+#choose_method label{
+box-sizing: border-box;
+margin-bottom: 0;
+
+}
+#form_nap_the input:not([type="submit"]) {
+    height: 33px;
+    width: 95%;
+    color: #223355;
+}
+
+#form_nap_the input[type="submit"] {
+ width: 100%;
+ background-color: #BB2211;
+ color: #fff;
+ font-size: 18px;
+ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+#form_nap_the label {color: #FFFF00;}
+
+#form_nap_the p {
+    margin-bottom:20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#checkout_the_cao{
+border-top: 1px dashed #6B88B2;
+padding-top: 24px;
+}
+
+
+
+#choose_method label {
+    float: left;
+    width: 24%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 1px;
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+#choose_method label.active{border: 3px solid #008000;}
+#choose_method label.active:after{
+content: "demo";
+    color: rgba(0,0,0,0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../image/check-mark.png) no-repeat;
+    background-size: 15px 15px;
+    background-position: bottom -1px right -2px;
+}
+
+#method_radio{
+display: none;
+}
+
+#status_nap_the{
+text-align: center;
+font-size: 16px;
+border-radius: 8px;
+padding: 8px 10px;
+margin-bottom: 15px;
+}
+
+#status_nap_the.success{
+background: #B0FF1F;
+color: #0A132B;
+}
+
+#status_nap_the.fail{
+background: #FFC107;
+color: #fff;
+}
+
+/*Responsive for form */
+@media (max-width: 600px){
+	#body12{
+	width: 100% !important;
+	}
+	  
+	#choose_method label {
+	    box-sizing: border-box;
+	}
+	#choose_method img{
+	margin: 0 9px 0 9px;
+	    max-width: 94%;
+	}
+}
+
+
+
+.btn-napthe{
+background: red;
+color: #fff;
+font-size: 11px;
+padding: 3px 5px;
+border-radius: 4px 4px;
+position: relative;
+top: -20px;
+left: -4px
+}
+
+.btn-napthe:hover{
+font-weight: bold;
+color: #fff;
+}
+
+#form_nap_the .amount {
+    color: #fff;
+    font-size: 18px;
+}
